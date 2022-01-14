@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News API</title>
+        <link href="./css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <form class="formularioNoticias">
+            <div>
+                <label for="topico">
+                    Topico de la noticia:
+                </label>
+                <input type="text" id="topico" />
+            </div>
+            <div>
+                <label for="numeroResultados">
+                    Número de resultados:
+                </label>
+                <input type="number" id="numeroResultados" />
+            </div>
+            <div>
+                <button class="buscarNoticia" type="submit">
+                    Buscar
+                </button>
+            </div>
+        </form>
+        <div class="resultados">
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+.formularioNoticias{
+    margin: 10px auto;
+    width: 350px;
+}
+
+.formularioNoticias > div {
+    margin: 10px;
+}
+
+.buscarNoticia{
+    display: block;
+    margin: 0 auto;
+}
